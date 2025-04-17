@@ -1,0 +1,71 @@
+:root{
+    --gradient:  linear-gradient(to right, 
+      #42000e,
+      #820505,
+      #8b0000,
+      #b40000,
+      #d60000,
+      #c41700,
+      #ff0400
+    );
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+    font-family: sans-serif;
+    color: #222;
+    background: beige;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: fondo-anim 20s infinite alternate;
+  }
+
+  @keyframes fondo-anim{
+    0%{background-position: left;} /*por defecto*/
+    100%{background-position: right;}
+  }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+h2 {
+    color: #c40000;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    padding: 1em 0;
+    background-color: #222;
+    text-align: center;
+}
+
+footer p {
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-g {
+  border-radius: 2%;
+}
+
+.img-g:hover {
+  scale: 1.05;
+  transition: .2s;
+}
+
+
+.navbar-active-color {
+  color: white;
+  background-color: red;
+}
