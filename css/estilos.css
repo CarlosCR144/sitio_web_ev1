@@ -57,6 +57,9 @@ a {
 
 .img-g {
   border-radius: 2%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .img-g:hover {
@@ -68,4 +71,21 @@ a {
 .navbar-active-color {
   color: white;
   background-color: red;
+}
+
+#mapa {
+  max-width: 400px;
+}
+
+#banner {
+  max-height: 800px;
+  padding-top: 40px;
+}
+
+label {
+  color: rgb(192, 10, 10)
+}
+
+li {
+  list-style-type: none;
 }
